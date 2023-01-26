@@ -8,7 +8,7 @@
 긍정: 31558개, 부정: 8894개로 테스트 진행(train data : test data = 8 : 2)\
 파라미터: BATCH_SIZE = 512, NUM_EPOCHS = 10, VALID_SPLIT = 0.1\
 모델: CNNClassfier / 컴파일: 손실함수, 옵티마이저 - adam, 지표 - accuracy\
-모델 평가: 0.8672599196434021\
+모델 평가: 0.8673\
 \
 [2023.01.26]\
 1 to 4: 부정, 8 to 10 긍정\
