@@ -67,6 +67,6 @@ accuracy: 0.9572, loss: 0.1386\
 RNN\
 accuracy: 0.9313, loss:0.1836\
 1-D CNN + RNN\
-accuracy: 0.9523, loss: 0.1537\
+accuracy: 0.9523, loss: 0.1537
 
 2. Pytorch
