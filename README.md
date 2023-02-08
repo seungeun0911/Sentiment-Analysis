@@ -2,7 +2,7 @@
  네이버 영화 리뷰 크롤링을 통한 감성분석\
  \
  긍정/부정 각각 10만 데이터 확보 진행 중\
-\
+
 1. Tensorflow/keras\
 \
 [2023.01.25]\
@@ -60,13 +60,13 @@ train data : test data = 8 : 2\
 모델 평가: 0.8378\
 \
 [2023.02.08]\
-1) 1-D Convolution Neural Network (1-D CNN)\
+1-D Convolution Neural Network (1-D CNN)\
 accuracy: 0.9546, loss: 0.1502\
-2) GlobalMaxPooling1D\
+GlobalMaxPooling1D\
 accuracy: 0.9572, loss: 0.1386\
-3) RNN\
+RNN\
 accuracy: 0.9313, loss:0.1836\
-4) 1-D CNN + RNN\
+1-D CNN + RNN\
 accuracy: 0.9523, loss: 0.1537\
 \
 2. Pytorch
