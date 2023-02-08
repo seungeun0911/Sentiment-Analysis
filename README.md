@@ -1,7 +1,9 @@
 # Sentiment Analysis
  네이버 영화 리뷰 크롤링을 통한 감성분석\
  \
- 긍정/부정 각각 10만 데이터 확보 진행 중 사전 분석 진행\
+ 긍정/부정 각각 10만 데이터 확보 진행 중
+
+1. Tensorflow/keras\
 \
 [2023.01.25]\
 1 to 4: 부정, 8 to 10: 긍정\
@@ -55,4 +57,16 @@ Naver sentiment movie corpus(20만개 데이터셋(긍정 부정 각각 10만개
 train data : test data = 8 : 2\
 파라미터: BATCH_SIZE = 512, EPOCHS = 8\
 모델: 기본적인 신경망 모델 / 컴파일: 손실함수, 옵티마이저 - adam, 지표 - accuracy\
-모델 평가: 0.8378
+모델 평가: 0.8378\
+\
+[2023.02.08]\
+1-D Convolution Neural Network (1-D CNN)\
+accuracy: 0.9546, loss: 0.1502\
+GlobalMaxPooling1D\
+accuracy: 0.9572, loss: 0.1386\
+RNN\
+accuracy: 0.9313, loss:0.1836\
+1-D CNN + RNN\
+accuracy: 0.9523, loss: 0.1537
+
+2. Pytorch
