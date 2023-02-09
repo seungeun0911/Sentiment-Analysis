@@ -3,7 +3,7 @@
  \
  긍정/부정 각각 10만 데이터 확보 진행 중
 
-1. Tensorflow/keras\
+1. Tensorflow.keras\
 \
 [2023.01.25]\
 1 to 4: 부정, 8 to 10: 긍정\
